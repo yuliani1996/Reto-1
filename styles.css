@@ -1,0 +1,37 @@
+body {
+    background: rgb(16,12,89);
+    background: linear-gradient(90deg, rgba(16,12,89,1) 0%, rgba(12,12,139,1) 46%, rgba(9,15,83,1) 100%);
+    color: #4dee25;
+    font-family: -apple-system, BlinkMacSystemFont;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.7);
+}
+
+#resultado {
+    background: rgb(8, 27, 37);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(5, 32, 32, 0.5);
+    max-width: 600px;
+    transition: background 0.3s;
+}
+
+#resultado:hover {
+    background: rgba(10, 14, 77, 0.712);
+}
+
+
+#resultado {
+    animation: glow 1.5s infinite alternate;
+}
